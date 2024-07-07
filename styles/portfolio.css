@@ -1,6 +1,5 @@
 
 
-
 /* font style */
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
@@ -36,7 +35,11 @@ nav {
     border: none;
 }
 
-
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png') ;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 
 
 .dark-2{
@@ -64,4 +67,26 @@ nav li a{
     text-decoration: none;
     margin-right: 50px;
     align-items: center;
+}
+
+/* banner style */
+.banner-greeting{
+font-weight: 600;
+font-size: 45px;
+}
+
+.banner-tittle{
+font-weight: 800 ;
+font-size: 85px;
+}
+.banner-profile-pic{
+    width: 580px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 38px 0px 200px;
+}
+.banner-content{
+    width: 530px;
 }
